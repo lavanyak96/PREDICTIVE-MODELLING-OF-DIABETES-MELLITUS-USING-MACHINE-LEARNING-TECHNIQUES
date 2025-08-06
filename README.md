@@ -11,9 +11,13 @@ These findings demonstrate the potential of integrating machine learning into cl
 
 
 Results and Analysis :
+
 •	Random Forest outperformed MLP in every metric.
+
 •	The RF model was not only more accurate but also more consistent across all classes, crucial for clinical applications where every type of patient (mild, moderate, severe diabetic) needs to be identified.
+
 •	MLP’s performance was inconsistent, especially for mid-stage diabetic cases (Class 1), possibly due to its sensitivity to hyperparameters and limited sample size in the test set.
+
 •	The Hybrid RF + MLP model provided a balanced middle ground—though its accuracy was slightly lower than the standalone RF, it offered more stable predictions across all classes than MLP alone. Its relatively high MCC (0.81) and consistent recall rates indicate that combining models can enhance generalizability and minimize class-wise bias, making it a reliable alternative in complex classification scenarios.
 
 
